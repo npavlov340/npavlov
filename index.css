@@ -169,10 +169,17 @@
 }
 
 .picture{	
-	 
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
 	height: 50%;
 	background-color: blue;
+	border: solid 1px black;
+}
+
+.picture img {
+	width: 100%;
+	max-width: 100%;
 }
 
 .description{
@@ -186,7 +193,14 @@
 	position: absolute;
     background-color: green;
     height: 50%;
-    width: inherit;       
+    width: inherit;  
+    padding-top: 2%; 
+    padding-right: 20%;    
+}
+
+.content-about li {
+	font-size: 20px;
+	color: black;		
 }
 
 
@@ -227,3 +241,4 @@
 .on-sceen{
 	left: 0%;
 }
+
